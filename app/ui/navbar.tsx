@@ -8,7 +8,7 @@ export default function Navbar() {
           📚 Bogreolen
         </Link>
         <div className="flex gap-6 text-sm font-medium">
-          <Link href="/bookshelf-csr" className="hover:text-amber-400 transition-colors">
+          <Link href="/bookshelf-island" className="hover:text-amber-400 transition-colors">
             🏝️ Island (Hybrid)
           </Link>
           <Link href="/bookshelf-csr" className="hover:text-amber-400 transition-colors">
