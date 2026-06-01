@@ -1,4 +1,4 @@
-import Navbar from './ui/navbar';
+import Navbar from './ui/Navbar';
 // @ts-ignore
 import './globals.css'; 
 
