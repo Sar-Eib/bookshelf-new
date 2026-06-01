@@ -11,8 +11,39 @@ export default function Home() {
           Eksamensprototype: En praktisk sammenligning af Client-Side Rendering (CSR) med Custom Hooks vs. Server-Side Rendering (SSR).
         </p>
       </header>
+
+      <div className="flex flex-col md:flex-row gap-8 max-w-4xl w-full justify-center mb-5">
+        {/* Island Kort */}
+        <div className="bg-gradient-to-br from-white to-emerald-50/20 p-8 rounded-2xl shadow-sm border border-emerald-100 flex-1 flex flex-col justify-between transition-all duration-300 hover:scale-[1.01] hover:shadow-md hover:border-emerald-200">
+          <div>
+            {/* Ikon pakket tilgængeligt ind efter W3C/WCAG standarder */}
+            <span role="img" aria-label="ø med palme" className="text-4xl drop-shadow-sm inline-block transform hover:rotate-12 transition-transform duration-200">
+              🏝️
+            </span>
+            
+            <h2 className="text-2xl font-serif font-semibold text-emerald-950 mt-4 mb-3 flex items-center gap-2">
+              Island Hybrid <span className="text-xs bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded-full uppercase tracking-wide">Sprint 2</span>
+            </h2>
+            
+            <p className="text-stone-600 text-sm leading-relaxed mb-6">
+              Min softwarearkitektoniske videreudvikling baseret på <strong>Islands Architecture</strong>. Siden eliminerer det hårde valg mellem SEO og rige klientside-features ved at kombinere dem. 
+            </p>
+            
+            <p className="text-stone-600 text-sm leading-relaxed mb-6">
+              Selve layoutet og bogdata præ-renderes lynhurtigt via <strong>SSR</strong> for maksimal søgemaskine-indeksering. De interaktive 3D-bøger er isoleret som klientside-øer (<strong>CSR</strong>), der beskytter mod <em>The Uncanny Valley</em> ved visuelt at indikere deres <strong>hydration-proces</strong>.
+            </p>
+          </div>
+          
+          <Link href="/bookshelf-island" className="w-full text-center py-3 bg-teal-800 hover:bg-teal-900 text-white font-medium rounded-xl shadow-sm transition-all hover:shadow-md active:scale-[0.99]">
+            Udforsk Arkitekturen ➡️
+          </Link>
+        </div>
+      </div>
       
+
       <div className="flex flex-col md:flex-row gap-8 max-w-4xl w-full justify-center">
+
+        
         
         {/* CSR Kort */}
         <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 flex-1 flex flex-col justify-between transition-transform hover:scale-[1.01]">

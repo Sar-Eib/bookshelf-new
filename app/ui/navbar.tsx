@@ -9,6 +9,9 @@ export default function Navbar() {
         </Link>
         <div className="flex gap-6 text-sm font-medium">
           <Link href="/bookshelf-csr" className="hover:text-amber-400 transition-colors">
+            🏝️ Island (Hybrid)
+          </Link>
+          <Link href="/bookshelf-csr" className="hover:text-amber-400 transition-colors">
             💻 CSR (Klient)
           </Link>
           <Link href="/bookshelf-ssr" className="hover:text-emerald-400 transition-colors">
